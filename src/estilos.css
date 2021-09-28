@@ -1,0 +1,43 @@
+body{
+    margin: 10;
+    padding: 0;
+    background:blue;
+
+}
+
+
+.izquierda{
+
+box-sizing: border-box;
+padding: 1em;
+width: 50%;
+}
+
+.derecha{
+   
+    box-sizing: border-box;
+    padding: 1em;
+    width: 50%;
+
+
+}
+
+.color1{
+    color: brown;
+    
+    }
+
+.color2{
+        color:cornsilk;
+        
+        }
+
+.color3{
+    color: brown;
+    
+    }
+
+#pantalla-dividida{
+    
+    display: flex;
+    }
