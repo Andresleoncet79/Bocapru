@@ -67,7 +67,7 @@ ob_end_flush();
 require_once('version.php');
 
 ?>
-<title>BOCA Online Contest Administrator <?php echo $BOCAVERSION; ?> - Login</title>
+<title>BOCA</title>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link rel=stylesheet href="Css.php" type="text/css">
@@ -124,36 +124,66 @@ if(function_exists("globalconf") && function_exists("sanitizeVariables")) {
  <section id="pantalla-dividida">
 
 <div class="izquierda">
-  <h1 span class="color1">BOCA</h1>
-  <p span class="color2">Software de administraciòn de maratones</p>
-<img src="índice.jpeg" alt="">
+  <center>
+    <h1>
+    <font face="Arial" size="20" span class="color1">BOCA</font>
+    </h1>
+  <p>
+  <font face="Arial" size="3" span class="color2">SOFTWARE OF MANAGEMENT OF PROGRAMMING MARATHONS</font>
+  </p>
+<img span class="imagen" src="índice.jpeg" alt="">
+</center>
 </div>
 <div class="derecha">
 <tr align="" valign=""> 
     <td> 
       <form name="form1" action="javascript:computeHASH()">
-      <h2 span class="color3">Sign In</h2>
+      <div id="general">
+        <center>
+          <h4>
+          <font  face="Arial" size="5" span class="color3">Sign In</font>
+          </h4>
+        </center>
               </td>
             </tr>
             <tr>
               <td valign="top"> 
-                <table border="0" align="left">
+                <table align="center">
                   <tr> 
-                    <td><font face="Verdana, Arial, Helvetica, sans-serif" > 
-                      Name
-                      </font></td>
                     <td> 
-                      <input type="text" name="name">
+                      <input type="text" size="20" span class="colorName" name="name" placeholder="Email of phone number">
                     </td>
                   </tr>
                   <tr> 
-                    <td><font face="Verdana, Arial, Helvetica, sans-serif" >Password</font></td>
                     <td> 
-                      <input type="password" name="password">
+                      <input type="password" span class="colorPass" size="20" name="password" placeholder="Password">
                     </td>
                   </tr>
+
+                <tr> 
+                    <td>
+                      <center>
+                      <input type="submit" span class ="colorBoton" name="Submit" value="Sign In">
+                      </center> 
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td>
+                      
+                      <input type="checkbox"  name="checkbox" id="checkbox1">
+                      <label for="checkbox1" span class ="colorCheck">Remember data</label>
+                    </td>
+                  </tr>
+
+                  <tr> 
+                    <td>
+                      <a href="https://blogs.iteso.mx/acm/primera-fase-gran-premio-de-mexico-centroamerica/d-sistemas-utilizados-para-el-control-de-los-concursos/">Need Help</a>
+                    </td>
+                  </tr>
+
+
                 </table>
-                <input type="submit" name="Submit" value="Login">
+                </div>
               </td>
             </tr>
           </table>
