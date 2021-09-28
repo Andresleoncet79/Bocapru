@@ -1,10 +1,10 @@
+
 body{
     margin: 10;
     padding: 0;
-    background:blue;
+    background:#5564eb;
 
 }
-
 
 .izquierda{
 
@@ -19,25 +19,64 @@ width: 50%;
     padding: 1em;
     width: 50%;
 
-
 }
 
 .color1{
-    color: brown;
+    color: red;
     
     }
 
 .color2{
-        color:cornsilk;
+        color:white;
         
         }
 
 .color3{
-    color: brown;
+
+    color:red;
     
     }
+input::placeholder{
+    color: red;
+}
+
+.colorBoton{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-color: red;
+    color: white;
+}
+
+.colorName{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.colorPass{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.colorCheck{
+    color:white;
+}
 
 #pantalla-dividida{
     
     display: flex;
     }
+
+div#general {
+
+    width: 400px;
+    height: 100px;
+    margin-top: 100px;
+}
+
+.imagen{
+
+    border-radius: 10px;
+}
