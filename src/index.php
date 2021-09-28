@@ -120,16 +120,19 @@ if(function_exists("globalconf") && function_exists("sanitizeVariables")) {
 ?>
 </head>
 <body onload="document.form1.name.focus()">
-<table width="100%" height="100%" border="0">
-  <tr align="center" valign="middle"> 
+<link rel="stylesheet" href="estilos.css">
+ <section id="pantalla-dividida">
+
+<div class="izquierda">
+  <h1 span class="color1">BOCA</h1>
+  <p span class="color2">Software de administraciòn de maratones</p>
+<img src="índice.jpeg" alt="">
+</div>
+<div class="derecha">
+<tr align="" valign=""> 
     <td> 
       <form name="form1" action="javascript:computeHASH()">
-        <div align="center"> 
-          <table border="0" align="center">
-            <tr> 
-              <td nowrap>
-                <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="+1">
-				BOCA Login</font></div>
+      <h2 span class="color3">Sign In</h2>
               </td>
             </tr>
             <tr>
@@ -159,4 +162,8 @@ if(function_exists("globalconf") && function_exists("sanitizeVariables")) {
     </td>
   </tr>
 </table>
-<?php include('footnote.php'); ?>
+</div>
+
+ </section>  
+
+<?php?>
