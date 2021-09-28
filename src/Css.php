@@ -1,4 +1,5 @@
 <?php
+
 ////////////////////////////////////////////////////////////////////////////////
 //BOCA Online Contest Administrator
 //    Copyright (C) 2003-2012 by BOCA Development Team (bocasystem@gmail.com)
@@ -16,11 +17,14 @@
 //    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ////////////////////////////////////////////////////////////////////////////////
 // Last modified 05/aug/2012 by cassio@ime.usp.br
-$corfundo = "#e0e0d0";
-$corfrente = "#000000";
-$corfundo2 = "#dfdfdf";
-$cormenu = "#dfdfdf";
+//$corfundo = "#e0e0d0";
+//$corfrente = "#000000";
+//$corfundo2 = "#dfdfdf";
+//$cormenu = "#dfdfdf";
+
 ?>
+
+
 div#popupnew {
 position:absolute;
 left:50%;
